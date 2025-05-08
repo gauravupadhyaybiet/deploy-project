@@ -1,1 +1,3 @@
-backand/.env
+# Logs
+.env
+node_modules
