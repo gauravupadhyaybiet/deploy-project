@@ -20,7 +20,7 @@ app.use(express());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
-const allowedOrigin = 'http://localhost:5173';
+const allowedOrigin = 'https://deploy-project-2-2zf2.onrender.com';
 
 // Use the cors middleware with specific origin
 app.use(cors({
